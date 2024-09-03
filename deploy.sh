@@ -9,6 +9,8 @@ git push origin deploy
 
 git push heroku deploy:master -f
 
+pip install -r requirements.txt
+
 git checkout master
 
 git push origin --delete deploy
